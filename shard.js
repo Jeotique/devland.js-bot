@@ -1,7 +1,7 @@
 const {ShardingManager} = require('devland.js')
 
 const shardSystem = new ShardingManager('./index.js', {
-    token: 'OTkzNDk3NDA0MjEwOTU0MzMy.G2pvCF.dSs8Iyn6bzm3HE2jBAinHKzyn8qN_iJXTsGkWg',
+    token: 'YOUR TOKEN BOT HERE',
     autospawn: true
 })
 shardSystem.on('shardCreate', shard => {
